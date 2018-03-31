@@ -11,18 +11,20 @@ export default () => {
             About
           </Header.Content>
         </Header>
-      </Segment>
+      </Segment>      
       <Segment vertical>
-        <p>
-          This starter was created by @fabien0102.
+        <h1>Hello!</h1>
+        <p>            
+            My name is <strong>Jonathan Osmeña</strong> and I am a Web Applications Developer
+            originally from <a href="#">Cebu City</a>, Philippines 
+            who moved to <a href="#">Fredericton</a>, Canada in September of 2017.            
         </p>
-        <p>
-          For any question, I'm on <a href="https://discord.gg/2bz8EzW" target="blank">discord #reactiflux/gatsby</a>
-        </p>
-        <p>
-          For any issues, any PR are welcoming
-          <a href="https://github.com/fabien0102/gatsby-starter/issues" target="blank"> on this repository</a>
-        </p>
+        <p>I'm on the look out for new opportunities so send me an <a href="mailto:jonathan.osmena@gmail.com">email</a> if you'd like to work together.</p>
+        {/*}
+        <span>
+            <h6>The original template was created by @fabien0102.</h6>
+        </span>                       
+        */}
       </Segment>
     </Container>
   );
