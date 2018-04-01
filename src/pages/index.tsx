@@ -27,7 +27,9 @@ export default (props: IndexPageProps) =>
       <Container text>
         <Header inverted as="h1">Jonathan Osmeña</Header>
         <Header inverted as="h2">Web Applications Developer</Header>
-        <Button primary size="huge">Download my CV!</Button>
+        <a href="#" onClick={()=>window.open("https://www.dropbox.com/s/jp078t6umuxyxcg/Jonathan_Osme%C3%B1a_Resume.pdf?dl=0")}>
+          <Button primary size="huge">Download my CV!</Button>
+        </a>
       </Container>
     </Segment>
 
@@ -134,3 +136,4 @@ export default (props: IndexPageProps) =>
 
     
   </div>;
+
